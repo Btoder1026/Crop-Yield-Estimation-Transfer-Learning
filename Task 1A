@@ -1,0 +1,25 @@
+# Task 1A (20 points)
+Replicate the results of the code in the repository ensuring that you train the model with a much larger number of images, epochs and other parameters of your choice to present the best possible performance.
+
+To replicate the results of the code in the given repository, we will follow the steps outlined in the notebook. However, we will make some modifications to train the model with a larger number of images, epochs, and other parameters of our choice for improved performance.
+
+Here's an overview of the steps we will follow:
+
+Dataset Preparation:
+Gather a larger dataset of drone images showing the health of crops and the corresponding yield information.
+Organize the dataset into appropriate directories, separating images by their class labels (e.g., healthy, diseased, etc.) and creating a CSV file with image paths and corresponding labels.
+Data Preprocessing:
+Preprocess the images to enhance features and remove noise if required.
+Split the dataset into training and validation sets.
+Model Architecture:
+Choose a suitable deep learning architecture for the task, such as a convolutional neural network (CNN).
+Customize the architecture based on the specific requirements of crop yield estimation.
+Model Training:
+Set up the model training pipeline with appropriate hyperparameters.
+Train the model on the training dataset for a larger number of epochs to allow the model to learn complex patterns and generalize better.
+Model Evaluation:
+Evaluate the trained model on the validation dataset to assess its performance in predicting crop yield.
+Calculate relevant evaluation metrics like accuracy, precision, recall, and F1 score.
+Fine-tuning and Hyperparameter Optimization (Optional):
+If the initial model performance is not satisfactory, consider fine-tuning the model architecture or optimizing hyperparameters to improve the results.
+Iterate on the model training and evaluation steps until satisfactory performance is achieved.
